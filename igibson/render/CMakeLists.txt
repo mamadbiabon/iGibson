@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.12)
 project(CppMeshRenderer)
 
-set(USE_GLAD TRUE)
+set(USE_GLAD False)
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 set(OpenGL_GL_PREFERENCE GLVND)
 
